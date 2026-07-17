@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+      font-family: "Roboto", sans-serif;
+
+}
+.yey {
+    background-color: rgb(76, 105, 76);
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+}
+.textoPresentacion{
+    color: rgb(224, 45, 45);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    background-color: aqua;
+
+}
+.Card {
+    background-color: rgb(80, 138, 78);
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-around;
+}
+button {
+    margin: 10px;
+    width: 90%;
+    height: 40px;
+    background-color:white ;
+    border: rgb(5, 29, 5) 1px solid;
+    border-radius: 10px;
+}
+
+.ImgPerfil {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-radius: 10px;
+}
+
+.Mostrarcard {
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.enlaces {
+    display: flex;
+    list-style: none;
+    width: 400px;
+    justify-content: space-between;
+
+    
+}
+
+.info {
+    background-color: rgb(181, 209, 241);
+    text-align: left;
+    color: rgb(4, 19, 4);
+    size: 30px;
+    margin: 0%;
+    justify-content: center;
+
+    
+}
+footer{
+    background-color: rgb(180, 230, 253);
+    text-align: end;
+    padding: 30px;
+    margin-top: 30px;
+}
+.SobreNosotros {
+    background-color: rgb(214, 214, 253);
+    display: flex;
+    text-align: center;
+}
